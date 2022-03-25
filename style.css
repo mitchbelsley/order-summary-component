@@ -1,0 +1,122 @@
+body {
+  background-image: url('pattern-background-desktop.svg');
+  background-color: hsl(225, 100%, 94%);
+  background-size: cover;
+  height: 0px;
+  background-repeat:no-repeat;
+}
+.modal{
+  background-image: 
+    url('illustration-hero.svg');
+  background-repeat:
+    no-repeat;
+  width: 350px;
+  height: 550px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #ffff;
+  margin: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110px;
+}
+.modal h1{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  line-height: 450px;
+  height: 235px;
+  text-align: center;
+  font-size: 25px;
+  color: hsl(223, 47%, 23%);
+}
+.modal p{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+.plan{
+  width: 300px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 98%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.plan img{
+  float: left;
+  padding-top: 5px;
+  padding-left: 8px;
+}
+.plan p1{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  color: hsl(223, 47%, 23%);
+}
+.plan p2{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: hsl(224, 23%, 55%);
+}
+.flex{
+  flex-direction: column;
+  float: left;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.plan p3{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: underline;
+  color: #3929e0;
+  padding-right: 10px;
+  float: right;
+  padding-top: 20px;
+}
+p3:hover{
+  color: #746af2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button{
+  width: 300px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: #3929e0;
+  margin: 0;
+  Margin-left: auto;
+  margin-right: auto;
+  transition-duration: 0.4s;
+  box-shadow: 3px 10px 30px #989898;
+}
+.button:hover {
+  background-color: #746af2;
+  color: white;
+  cursor: pointer;
+}
+.button p{
+  color: #ffff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 6.5px;
+  margin-bottom: auto;
+}
+p4{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  color: hsl(224, 23%, 55%);
+}
+p4:hover{
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
